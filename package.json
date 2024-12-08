@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "backend:dev": "nodemon --exec ts-node backend/server.ts",
+    "frontend:dev": "next dev",
     "eslint": "eslint .",
     "format": "prettier --write \"backend/**/*.ts\"",
     "format:check": "prettier --check \"backend/**/*.ts\""
@@ -17,16 +18,22 @@
     "fastify": "^5.0.0",
     "fastify-plugin": "^5.0.1",
     "mongoose": "^8.8.3",
+    "next": "^15.0.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
     "eslint": "^9.13.0",
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3",
     "tsx": "^4.19.2",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "typescript-eslint": "^8.12.2"
   },
   "private": true
