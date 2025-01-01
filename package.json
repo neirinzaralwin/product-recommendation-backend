@@ -12,7 +12,8 @@
     "format:check": "prettier --check \"backend/**/*.ts\""
   },
   "dependencies": {
-    "axios": "^1.7.7",
+    "ajv": "^8.17.1",
+    "axios": "^1.7.9",
     "dotenv": "^16.4.5",
     "fast-csv": "^5.0.2",
     "fastify": "^5.0.0",
